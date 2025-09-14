@@ -38,5 +38,7 @@ if age < 19:
     print("can't age")
 elif age >= 19 and age <= 35:
     print("drink beer")
+elif age > 35 or age <= 40:
+    print("drink soju")
 else: 
     print("go ahead")
