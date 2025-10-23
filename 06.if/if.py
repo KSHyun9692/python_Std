@@ -42,3 +42,26 @@ elif age > 35 or age <= 40:
     print("drink soju")
 else: 
     print("go ahead")
+
+
+
+
+
+#################################
+x = 10
+y = 20
+
+print(x < y)
+print( x <= y)
+print( x >= y)
+print( x > y)
+
+origin_pass =  "1234"
+user_pass = input()
+if origin_pass == user_pass:
+    print("로그인 성공")
+elif user_pass == "":
+    print("비밀번호를 입력하세요.")
+else:
+    print("로그인 실패")
+
