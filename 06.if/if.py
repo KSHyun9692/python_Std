@@ -65,3 +65,19 @@ elif user_pass == "":
 else:
     print("로그인 실패")
 
+
+now_sub = input("현재 구독자 수를 입력하세요 : ")
+if int(now_sub) >= 1000:
+    print("수익 창출이 가능 합니다.")
+else:
+    print("수익 창출이 불가능 합니다.")
+
+
+
+stdy_time = input("공부 시간을 입력하세요(시간) : ")
+if int(stdy_time) >= 10:
+    print("휴대폰 잠금이 해제 됩니다.")
+elif int(stdy_time) >= 5:
+    print("휴대폰을 30분간 사용 가능합니다.")
+else:
+    print("휴대폰 사용이 불가능 합니다.")
