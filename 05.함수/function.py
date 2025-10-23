@@ -1,3 +1,7 @@
+#def 함수이름(매개변수1, 매개변수2, ...... ):
+#   내용
+#   return 반환값
+
 def first_function():
     print("hello")
 
@@ -54,3 +58,29 @@ age = 23
 eye = "black"
 
 print(f"Hello my name is {name} i have {age} years in the earth, {eye} is my eye color")
+
+
+
+def easy_recipe(a, b):
+    print(f"{a} 와 {b}를(을) 이용해서 요리를 시작합니다.")
+    result = a + b + '볶음밥'
+    print("요리 완료")
+    return result
+
+dish = easy_recipe("라면", "치즈")
+print(dish)
+
+
+def cal_avg_gold(a, b, c):
+    avg = (a + b + c) / 3
+    return avg
+
+teamGold = cal_avg_gold(12000, 15000, 18000)
+print(teamGold)
+
+def cal_kda(kill, deth, assist):
+    a = (kill + assist) / deth
+    return a
+
+kda = cal_kda(10, 2, 7)
+print(kda)
